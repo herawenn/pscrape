@@ -4,7 +4,7 @@
 
 ## About The Project
 
-pScrape is a command line tool that uses the proxyscrape public api for working, protocal specific proxies.
+pScrape is a command line tool that uses the proxyscrape public api to save proxies.
 
 ![running the tool](https://i.imgur.com/wjZ3uhs.jpg)
 ![once complete](https://i.imgur.com/Ww5kxBR.jpg)
