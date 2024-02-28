@@ -47,16 +47,7 @@ Feel free to contribute to this project by submitting a pull request.
 
 ## Contact
 
-[Telegram](https://t.me/mulicious) 
-[Discord](https://discord.gg/portlords)
-[Cracked](https://cracked.io/herawen)
+[Telegram](https://t.me/mulicious) - [Discord](https://discord.gg/portlords) - [Cracked](https://cracked.io/herawen)
 Project Link: [https://github.com/herawenn/pscrape](https://github.com/herawenn/pscrape)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-[forks-shield]: https://img.shields.io/github/forks/herawenn/pscrape.svg?style=for-the-badge
-[forks-url]: https://github.com/herawenn/pscrape/network/members
-[stars-shield]: https://img.shields.io/github/stars/herawenn/pscrape.svg?style=for-the-badge
-[stars-url]: https://github.com/herawenn/pscrape/stargazers
-[issues-shield]: https://img.shields.io/github/issues/herawenn/pscrape.svg?style=for-the-badge
-[issues-url]: https://github.com/herawenn/pscrape/issues
+<p align="center">(<a href="#readme-top">back to top</a>)</p>
