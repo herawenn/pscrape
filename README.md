@@ -47,4 +47,5 @@ Feel free to contribute to this project by submitting a pull request.
 
 ## Contact
 
-[Telegram](https://t.me/mulicious) - [Discord](https://discord.gg/portlords) - [Cracked](https://cracked.io/herawen) <p align="right">(<a href="#readme-top">back to top</a>)</p>
+[Telegram](https://t.me/mulicious) - [Discord](https://discord.gg/portlords) - [Cracked](https://cracked.io/herawen)
+<p align="left">(<a href="#readme-top">back to top</a>)</p>
