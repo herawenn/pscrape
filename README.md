@@ -1,7 +1,3 @@
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
 ## About The Project
 
 pScrape is a command line tool that uses the proxyscrape public api to save proxies.
