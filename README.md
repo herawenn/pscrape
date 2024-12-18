@@ -1,8 +1,8 @@
  # pscrape
 
-`pscrape` is a Python script designed to scrape proxy lists from various sources and save them to files. It supports SOCKS4, SOCKS5, and HTTP(S) proxies. The script uses asynchronous I/O for efficient fetching and includes a progress bar to show the download status.
-
 ![Screenshot](https://i.imgur.com/iUkS72j.png)
+
+`pscrape` is a Python script designed to scrape proxy lists from various sources and save them to files. It supports SOCKS4, SOCKS5, and HTTP(S) proxies. The script uses asynchronous I/O for efficient fetching and includes a progress bar to show the download status.
 
 ## Features
 
