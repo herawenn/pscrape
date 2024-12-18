@@ -1,47 +1,62 @@
-## About The Project
+ # pscrape
 
-pScrape is a command line tool that uses the proxyscrape public api to save proxies.
+`pscrape` is a Python script designed to scrape proxy lists from various sources and save them to files. It supports SOCKS4, SOCKS5, and HTTP(S) proxies. The script uses asynchronous I/O for efficient fetching and includes a progress bar to show the download status.
 
-![running the tool](https://i.imgur.com/wjZ3uhs.jpg)
-![once complete](https://i.imgur.com/Ww5kxBR.jpg)
+![Screenshot](https://i.imgur.com/iUkS72j.png)
 
 ## Features
 
-- Fetch proxies asynchronously using the ProxyScrape API.
-- Check the status of each proxy.
-- Save all proxies to a text file.
-- Print out the status of each proxy.
-
-## Installation
-
-1. Ensure that you have Python (3.6 or later) installed on your machine.
-2. Install the required Python libraries using pip:
-  `pip install aiohttp ping3 colorama`
-3. Download the `pscrape.py` file from this repository.
-4. Run the script from the command line:
-  `python pscrape.py`
-5. When prompted, enter the type of proxies you'd like to fetch (HTTP, SOCKS4, SOCKS5, or ALL).
-
-The script will then fetch the proxies, check their status, and save them into a text file. The status of each proxy will be printed out.
+- **Asynchronous Fetching**: Uses `aiohttp` for asynchronous HTTP requests to fetch proxy lists efficiently.
+- **Progress Bar**: Displays a progress bar with a yellow fill character to indicate the download status.
+- **Logging**: Includes logging for error tracking and debugging.
+- **Customizable**: Easily add or remove proxy sources by modifying the `proxies_urls` dictionary.
 
 ## Requirements
 
-- Python 3.6 or later
-- aiohttp library
-- ping3 library
-- colorama library
+- Python 3.7+
+- `aiohttp`
+- `tqdm`
+- `colorama`
 
-## Note
+## Installation
 
-The `ping` function from the `ping3` library is blocking and might affect performance when checking the status of a large number of proxies.
+1. Clone the repository:
 
-## Future Improvements
+    ```sh
+    git clone https://github.com/herawenn/pscrape.git
+    cd pscrape
+    ```
 
-Future updates to this script can include options for concurrent proxy status checking and options for saving only 'online' proxies.
+2. Install the required dependencies:
 
-Feel free to contribute to this project by submitting a pull request.
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the script:
+
+    ```sh
+    python pscrape.py
+    ```
+
+2. The script will display a banner, a progress bar for fetching proxies, and the total number of proxies saved for each protocol (SOCKS4, SOCKS5, HTTP(S)).
+
+3. The proxy lists will be saved in the `lists` directory with filenames corresponding to the protocol (e.g., `socks4.txt`, `socks5.txt`, `http.txt`).
+
+## Customization
+
+You can customize the proxy sources by modifying the `proxies_urls` dictionary in the script. Add or remove URLs as needed to include or exclude specific proxy sources.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions, bug reports, or feature requests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-[Telegram](https://t.me/mulicious) - [Discord](https://discord.gg/portlords) - [Cracked](https://cracked.io/herawen)
-<p align="left">(<a href="#readme-top">back to top</a>)</p>
+For any questions or inquiries, please contact alex[at]fear[dot]pw
